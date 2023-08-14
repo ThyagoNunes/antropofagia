@@ -3,9 +3,12 @@
 @tailwind utilities;
 
 :root {
+  margin: 0;
+  padding: 0;
   font-family: Signika Negative, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  width: 50vh;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
@@ -18,10 +21,35 @@
   -webkit-text-size-adjust: 100%;
 }
 
-body {
-  margin: 0;
-  display: flex;
-  /* place-items: center;
-  min-width: 320px;
-  min-height: 100vh; */
+/* Para telas com largura maior que 1918px */
+@media (min-width: 1918px) {
+  /* Seus estilos para telas maiores aqui */
+  body {
+    background-color: green;
+  }
+}
+
+/* Para dispositivos com largura menor que 600px (geralmente, smartphones em modo retrato) */
+@media (max-width: 599px) {
+  /* Seus estilos para smartphones aqui */
+  body {
+    background-color: red;
+  }
+}
+
+/* Para tablets em modo retrato (largura entre 600px e 959px) */
+@media (min-width: 600px) and (max-width: 959px) {
+  /* Seus estilos para tablets em modo retrato aqui */
+  body {
+    background-color: yellow;
+  }
+}
+
+/* Para tablets em modo paisagem (largura entre 960px e 1279px) */
+@media (min-width: 960px) and (max-width: 1279px) {
+  /* Seus estilos para tablets em modo paisagem aqui */
+  body {
+    width: 960px;
+    background-color: blue;
+  }
 }
