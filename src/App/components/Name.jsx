@@ -1,9 +1,9 @@
 export function Name() {
   return (
     <>
-      <div className="mb:px-4 mb:bg-yellow-300 mb:relative mb:w-full mb:text-[1vh] mb:tracking-[.5em] mb:uppercase mb:text-white mb:flex mb:items-center mb:justify-around mb:-top-[25vh] ">
-        <span className="font-light text-[5vh]">gabriel marques</span>
-        <span className="font-bold text-[5vh]">antropofagia</span>
+      <div className="mb:relative mb:w-screen mb:tracking-[.1em] mb:uppercase mb:text-white mb:flex mb:items-center mb:justify-around mb:top-[-21vh] mb:font-light mb:text-base xxl:px-4 xxl:relative xxl:w-full xxl:text-[2vw] xxl:tracking-[.5em] xxl:uppercase xxl:text-white xxl:flex xxl:items-center xxl:justify-around xxl:-top-[60vh] xxl:font-light xxl:text- ">
+        <span className="">gabriel marques</span>
+        <span className="font-bold">antropofagia</span>
       </div>
     </>
   );
