@@ -12,7 +12,7 @@ export function PairPhotos(props) {
         />
       </div>
       <div
-        className=" mb:relative mb:text-white mb:text-[14px] mb:bottom-6 mb:text-end mb:right-2 mb:w- mb:-top-4 mb mb:leading-[0px] mb:uppercase
+        className=" mb:relative mb:text-white mb:text-[14px] mb:text-end mb:bottom-6 mb:right-2 mb:w-screen mb:-top-4 mb mb:leading-[0px] mb:uppercase
         xxl:relative xxl:text-white xxl:text-[28px] xxl:bottom-6 xxl:text-end  xxl:leading-[0px] xxl:uppercase "
       >
         {props.collection}

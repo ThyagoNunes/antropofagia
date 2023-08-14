@@ -4,8 +4,8 @@ export default {
   theme: {
     extend: {},
     screens: {
-      mb: "389px",
-      // => @media (min-width: 400px) { ... }
+      mb: "350px",
+      // => @media (min-width: 350px) { ... }
 
       sm: "640px",
       // => @media (min-width: 640px) { ... }
@@ -16,10 +16,10 @@ export default {
       lg: "1024px",
       // => @media (min-width: 1024px) { ... }
 
-      xl: "1280px",
+      xxl: "1280px",
       // => @media (min-width: 1280px) { ... }
 
-      xxl: "1536px",
+      /* xxl: "1365px", */
       // => @media (min-width: 1536px) { ... }
     },
   },
