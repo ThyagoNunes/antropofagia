@@ -6,7 +6,7 @@ export function Antropofagia(props) {
     <>
       <div
         className="mb:p-2 mb:w-full mb:h-[40vh] mb:-mt-6 mb:bg-white mb:text-black mb:flex mb:items-center mb:justify-between mb:text-[1.2vh] mb:leading-3  
-      xxl:p-4 xxl:w-full xxl:h-[100vh] xxl:bg-white xxl:text-black xxl:flex xxl:items-center xxl:justify-between xxl:text-[5vh] xxl:leading-[50px]  "
+      xxl:p-8 xxl:mx-4 xxl:w-full xxl:h-[100vh] xxl:bg-white xxl:text-black xxl:flex xxl:items-center xxl:justify-between xxl:text-[3vh] xxl:leading-[30px]  "
       >
         <div
           className=" mb:flex mb:flex-col mb:uppercase mb:tracking-[.1vh]  

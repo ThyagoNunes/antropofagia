@@ -11,12 +11,12 @@ export function PairPhotos(props) {
           alt={props.secondAlt}
         />
       </div>
-      <p
-        className=" mb:relative mb:text-white mb:text-[16px] mb:bottom-2 max-w-[200px] mb:leading-[0px] text-end mb:uppercase mb:mt-2
-      xxl:relative xxl:text-white xxl:text-2xl xxl:bottom-20 xxl:text-end xxl:leading-[0px] xxl:right-10 xxl:uppercase xxl:mt-2"
+      <div
+        className=" mb:relative mb:text-white mb:text-[14px] mb:bottom-6 mb:text-end mb:right-2 mb:w- mb:-top-4 mb mb:leading-[0px] mb:uppercase
+        xxl:relative xxl:text-white xxl:text-[28px] xxl:bottom-6 xxl:text-end  xxl:leading-[0px] xxl:uppercase "
       >
         {props.collection}
-      </p>
+      </div>
     </>
   );
 }
@@ -28,3 +28,6 @@ PairPhotos.propTypes = {
   secondAlt: PropTypes.string,
   collection: PropTypes.string.isRequired,
 };
+
+
+/* xxl:relative xxl:text-white xxl:text-4xl xxl:bottom-20 xxl:text-end xxl:leading-[0px] xxl:right-10 xxl:uppercase xxl:mt-2" */
