@@ -10,10 +10,13 @@ export function Section(props) {
           src={props.secondPhoto}
           alt={props.secondAlt}
         />
-        {/*   <span className="relative text-red-700 right-24 -bottom-52 uppercase">
-          {props.collection}
-        </span> */}
       </div>
+      <p
+        className=" mb:relative mb:text-white mb:text-[16px] mb:bottom-2 max-w-[200px] mb:leading-[0px] text-end mb:uppercase
+      xxl:relative xxl:text-white xxl:text-2xl xxl:bottom-20 xxl:text-end xxl:leading-[0px] xxl:right-10 xxl:uppercase"
+      >
+        {props.collection}
+      </p>
     </>
   );
 }

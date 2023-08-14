@@ -30,12 +30,11 @@
 }
 
 /* Para dispositivos com largura menor que 600px (geralmente, smartphones em modo retrato) */
-@media (max-width: 599px) {
-  /* Seus estilos para smartphones aqui */
+/* @media (max-width: 599px) {
+  Seus estilos para smartphones aqui
   body {
-    background-color: red;
   }
-}
+} */
 
 /* Para tablets em modo retrato (largura entre 600px e 959px) */
 @media (min-width: 600px) and (max-width: 959px) {
