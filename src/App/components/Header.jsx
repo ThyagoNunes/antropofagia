@@ -1,4 +1,4 @@
-import { photos }  from '../photos'
+import { photos } from "../photos";
 
 export function Header() {
   return (

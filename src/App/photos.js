@@ -1,5 +1,5 @@
 import cover from "./assets/image.CWXP91.png";
-import gustavoGrota from "./assets/gustavoGrota.png";
+import antropofagia from "./assets/antropofagia.png";
 import paulaRaia1 from "./assets/image.U27R91.png";
 import paulaRaia2 from "./assets/image.5JED91.png";
 import paulaRaia3 from "./assets/image.BFPB91.png";
@@ -13,5 +13,5 @@ export const photos = {
     fourthPhoto: paulaRaia4,
   },
   cover,
-  gustavoGrota,
+  antropofagia,
 };
