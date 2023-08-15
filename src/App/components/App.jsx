@@ -1,7 +1,6 @@
 import { Header } from "./Header";
 import { photos } from "../photos";
 
-import { Antropofagia } from "./Antropofagia";
 import { SinglePhoto } from "./SinglePhoto";
 import { PairPhotos } from "./PairPhotos";
 
@@ -12,8 +11,6 @@ export function App() {
       {/* se você mexer no screen da div abaixo você se tornará um chupado de pirocas */}
       <div className="mb:w-screen  xxl:w-screen bg-white">
         <Header />
-
-        <Antropofagia fullname="gabriel marques" brand="antropofagia" />
 
         <PairPhotos
           firstPhoto={photos.paulaRaia.firstPhoto}
@@ -79,6 +76,105 @@ export function App() {
         <PairPhotos
           firstPhoto={photos.theSuper.thirdPhoto}
           secondPhoto={photos.theSuper.fourthPhoto}
+          firstAlt=""
+          secondAlt=""
+        />
+        <PairPhotos
+          firstPhoto={photos.clamiDesign.firstPhoto}
+          secondPhoto={photos.clamiDesign.secondPhoto}
+          firstAlt=""
+          secondAlt=""
+        />
+        <PairPhotos
+          firstPhoto={photos.mundoDoEnxoval.firstPhoto}
+          secondPhoto={photos.mundoDoEnxoval.secondPhoto}
+          firstAlt=""
+          secondAlt=""
+        />
+        <PairPhotos
+          firstPhoto={photos.hoodMood.firstPhoto}
+          secondPhoto={photos.hoodMood.secondPhoto}
+          firstAlt=""
+          secondAlt=""
+        />
+        <PairPhotos
+          firstPhoto={photos.pedroTrindade.firstPhoto}
+          secondPhoto={photos.pedroTrindade.secondPhoto}
+          firstAlt=""
+          secondAlt=""
+        />
+        <PairPhotos
+          firstPhoto={photos.manuGavassi.firstPhoto}
+          secondPhoto={photos.manuGavassi.secondPhoto}
+          firstAlt=""
+          secondAlt=""
+        />
+        <SinglePhoto firstPhoto={photos.forcaStudio} firstAlt="" />
+        <PairPhotos
+          firstPhoto={photos.reflektor.firstPhoto}
+          secondPhoto={photos.reflektor.secondPhoto}
+          firstAlt=""
+          secondAlt=""
+        />
+        <PairPhotos
+          firstPhoto={photos.tovelo.firstPhoto}
+          secondPhoto={photos.tovelo.secondPhoto}
+          firstAlt=""
+          secondAlt=""
+        />
+        <PairPhotos
+          firstPhoto={photos.birds.firstPhoto}
+          secondPhoto={photos.birds.secondPhoto}
+          firstAlt=""
+          secondAlt=""
+        />
+        <PairPhotos
+          firstPhoto={photos.workers.firstPhoto}
+          secondPhoto={photos.workers.secondPhoto}
+          firstAlt=""
+          secondAlt=""
+        />
+        <PairPhotos
+          firstPhoto={photos.workers.thirdPhoto}
+          secondPhoto={photos.workers.fourthPhoto}
+          firstAlt=""
+          secondAlt=""
+        />
+        <PairPhotos
+          firstPhoto={photos.bonitoPraChover.firstPhoto}
+          secondPhoto={photos.bonitoPraChover.secondPhoto}
+          firstAlt=""
+          secondAlt=""
+        />
+        <PairPhotos
+          firstPhoto={photos.stateOfEmergency}
+          secondPhoto={photos.whereTheWild}
+          firstAlt=""
+          secondAlt=""
+        />
+
+        <PairPhotos
+          firstPhoto={photos.birdsStudy}
+          secondPhoto={photos.iLoveYou}
+          firstAlt=""
+          secondAlt=""
+        />
+        <PairPhotos
+          firstPhoto={photos.twinPeaks.firstPhoto}
+          secondPhoto={photos.twinPeaks.secondPhoto}
+          firstAlt=""
+          secondAlt=""
+        />
+
+        <PairPhotos
+          firstPhoto={photos.eden2077.firstPhoto}
+          secondPhoto={photos.eden2077.secondPhoto}
+          firstAlt=""
+          secondAlt=""
+        />
+        <PairPhotos
+          firstPhoto={photos.perfectBody}
+          secondPhoto={photos.isolation}
           firstAlt=""
           secondAlt=""
         />
