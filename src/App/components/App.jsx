@@ -181,7 +181,7 @@ export function App() {
         <PairPhotos
           firstPhoto={photos.perfectBody}
           secondPhoto={photos.isolation}
-          firstAlt="Jovem garoto tirando foto em frente ao espelho esbanjando seu corpo AESTHETIC em frente ao espelho com seu celular e a outra mão elevada até o ombro e erguendo sua camisa para mostrar seu tronco"
+          firstAlt="Jovem garoto tirando foto em frente ao espelho esbanjando seu corpo AESTHETIC em frente ao espelho com seu celular e a outra mão elevada até o ombro e erguendo sua camis na cor preta para mostrar seu tronco depilado em formato de gomos de um abdomem sarado totalmente simulado"
           secondAlt="Mulher em pé despida de um conjunto íntimo na cor branca, usando capacete e cortando cebelas em cima de uma tabua de madeira com uma faca que por sua vez está em cima de um pedestral de coluna grego "
         />
       </div>
