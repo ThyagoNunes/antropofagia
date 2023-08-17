@@ -5,10 +5,9 @@ export function SinglePhoto(props) {
     <>
       <div className="flex">
         <img
-          onClick={() => console.log(props.firstAlt)}
           className="w-[100%]"
           src={props.firstPhoto}
-          alt={props.firstAlt}
+          alt={props.firstAlternativeText}
         />
       </div>
     </>
@@ -17,7 +16,5 @@ export function SinglePhoto(props) {
 
 SinglePhoto.propTypes = {
   firstPhoto: PropTypes.string.isRequired,
-  firstAlt: PropTypes.string.isRequired,
+  firstAlternativeText: PropTypes.string.isRequired,
 };
-
-/* xxl:relative xxl:text-white xxl:text-4xl xxl:bottom-20 xxl:text-end xxl:leading-[0px] xxl:right-10 xxl:uppercase xxl:mt-2" */

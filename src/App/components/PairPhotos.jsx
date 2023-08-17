@@ -5,17 +5,17 @@ export function PairPhotos(props) {
     <>
       <div className="flex">
         <img
-          title={props.firstAlt}
-          onClick={() => console.log(props.firstAlt)}
+          title={props.firstAlternativeText}
+          onClick={() => console.log(props.firstAlternativeText)}
           className="w-[50%] "
           src={props.firstPhoto}
-          alt={props.firstAlt}
+          alt={props.firstAlternativeText}
         />
         <img
-          onClick={() => console.log(props.secondAlt)}
+          onClick={() => console.log(props.secondAlternativeText)}
           className="w-[50%]"
           src={props.secondPhoto}
-          alt={props.secondAlt}
+          alt={props.secondAlternativeText}
         />
       </div>
     </>
@@ -25,8 +25,8 @@ export function PairPhotos(props) {
 PairPhotos.propTypes = {
   firstPhoto: PropTypes.string.isRequired,
   secondPhoto: PropTypes.string.isRequired,
-  firstAlt: PropTypes.string.isRequired,
-  secondAlt: PropTypes.string.isRequired,
+  firstAlternativeText: PropTypes.string.isRequired,
+  secondAlternativeText: PropTypes.string.isRequired,
 };
 
 /* xxl:relative xxl:text-white xxl:text-4xl xxl:bottom-20 xxl:text-end xxl:leading-[0px] xxl:right-10 xxl:uppercase xxl:mt-2" */
