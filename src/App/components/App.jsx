@@ -5,7 +5,6 @@ import { SinglePhoto } from "./SinglePhoto";
 import { PairPhotos } from "./PairPhotos";
 
 export function App() {
-  console.log(typeof paulaRaia1);
   return (
     <>
       {/* se você mexer no screen da div abaixo você se tornará um chupado de pirocas */}
@@ -21,7 +20,7 @@ export function App() {
         <PairPhotos
           firstPhoto={photos.paulaRaia.thirdPhoto}
           secondPhoto={photos.paulaRaia.fourthPhoto}
-          firstAlt="Mulheres vestidas de vermelho e com chápeu vermelho observando drone"
+          firstAlt="Mulheres vestidas de vermelho e com chápeu vermelho obsvando drone"
           secondAlt="Moça com chápeu de palha pousando pra foto espontânea"
         />
         <PairPhotos

@@ -5,6 +5,7 @@ export function PairPhotos(props) {
     <>
       <div className="flex">
         <img
+          title={props.firstAlt}
           onClick={() => console.log(props.firstAlt)}
           className="w-[50%] "
           src={props.firstPhoto}
