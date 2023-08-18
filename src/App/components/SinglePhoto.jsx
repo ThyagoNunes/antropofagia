@@ -5,6 +5,7 @@ export function SinglePhoto(props) {
     <>
       <div className="flex">
         <img
+          onClick={props.onClick}
           className="w-[100%]"
           src={props.firstPhoto}
           alt={props.firstAlternativeText}
@@ -17,4 +18,5 @@ export function SinglePhoto(props) {
 SinglePhoto.propTypes = {
   firstPhoto: PropTypes.string.isRequired,
   firstAlternativeText: PropTypes.string.isRequired,
+  onClick: PropTypes.func.isRequired,
 };
