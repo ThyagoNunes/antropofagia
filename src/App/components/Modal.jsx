@@ -26,7 +26,7 @@ function Modal({ image, alt, onClose }) {
 
   const imageWidthClasses = increasedImageSpace
     ? "mb:w-[700px] md:w-[950px] xxl:w-[1800px]"
-    : "mb:w-[300px] md:w-[650px] xxl:h-auto";
+    : "mb:w-[400px] md:w-[650px] xxl:h-auto";
 
   return (
     <div
